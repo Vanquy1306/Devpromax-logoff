@@ -1,0 +1,101 @@
+.groups-table {
+    width: 100%;
+    border-radius: 15px !important;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1) !important;
+    margin: 24px 0 !important;
+    padding: 24px !important;
+
+    .groups-table-button {
+        border-radius: 8px !important;
+        height: 40px !important;
+        font-weight: 500 !important;
+        font-size: 16x !important;
+        background-color: #ea7a9a !important;
+        border: none;
+        float: right;
+        color: white !important;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .group-name__tag {
+      color: #FFA8C5 !important;
+      font-weight: 500;
+    }
+
+    .groups-table-btn {
+        border-radius: 8px !important;
+        height: 35px !important;
+        width: 35px !important;
+        font-weight: 500 !important;
+        font-size: 16px !important;
+        border: none;
+        float: right;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &.edit-button {
+            background-color: #E97A9A !important;
+            color: white !important;
+        }
+
+        &.delete-button {
+            background-color: #f1508b !important;
+            color: white !important;
+        }
+    }
+
+    .ant-tag {
+        border-radius: 15px !important;
+        background-color: #fff;
+        color: #313261;
+        border-color: #313261;
+        margin: 5px 2px;
+        font-weight: 500;
+    }
+
+    .ant-tag::before {
+        content: "\f007";
+        padding: 0 4px;
+        font-family: fontawesome;
+        font-weight: 500;
+    }
+    @media only screen and (max-width: 1367px) {
+        .groups {
+          max-width: 1366px;
+          overflow: auto;
+        }
+      }
+      @media only screen and (max-width: 1200px) {
+        .groups {
+          max-width: 1200px;
+          overflow: auto;
+        }
+      }
+      @media only screen and (max-width: 992px) {   
+        .groups {
+          max-width: 960px;
+          overflow: auto;
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        .groups {
+          max-width: 720px;
+          overflow: auto;
+        }
+      }
+      @media only screen and (max-width: 576px) {
+        .groups {
+          max-width: 540px;
+          overflow: auto;
+        }
+      }
+      @media only screen and (max-width: 390px) {
+        .groups {
+          max-width: 390px;
+          overflow: auto;
+        }
+      }
+}
